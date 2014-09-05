@@ -1,0 +1,76 @@
+.unselectable, .tab .tab-legend > li {
+  user-selectable: none; }
+
+.tab {
+  width: 100%;
+  margin: 20px 0;
+  padding: 0 10px;
+  overflow: hidden; }
+
+.tab > .tab-legend, .tab > .tab-content, .tab-legend > li, .tab-content > li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.tab .tab-legend {
+  background-color: #dedede;
+  border-bottom: solid 1px #CCC;
+  font-family: Helvetica, Arial, sans-serif;
+  overflow: hidden; }
+
+.tab .tab-legend > li {
+  padding: 15px 15px;
+  color: #999999;
+  font-size: 16px;
+  text-transform: uppercase;
+  float: left;
+  cursor: pointer; }
+
+.tab .tab-legend .active {
+  padding: 13px 15px 15px 15px;
+  background-color: #FFF;
+  border-top: solid 3px #dc5147;
+  color: #dc5147; }
+
+.tab .tab-content {
+  width: 100%;
+  min-height: 350px;
+  position: relative;
+  overflow: hidden; }
+
+.tab .tab-content > li {
+  position: relative;
+  overflow: hidden; }
+
+/*Horizontal specific*/
+.tab-horiz .tab-legend {
+  width: 100%; }
+
+.tab-horiz .tab-legend > li {
+  border-top: solid 1px #CCC;
+  border-right: solid 1px #CCC; }
+
+.tab-horiz .tab-legend > li:first-child {
+  border-left: solid 1px #CCC; }
+
+.tab-horiz .tab-content {
+  width: 100%; }
+
+/*Vertical specific*/
+.tab-vert .tab-legend {
+  width: 20%;
+  float: left; }
+
+.tab-vert .tab-legend > li {
+  width: 100%;
+  border-top: solid 1px #CCC;
+  border-right: solid 1px #CCC; }
+
+.tab-vert .tab-content {
+  width: 80%;
+  display: table;
+  float: left; }
+
+.tab-vert .tab-content > li {
+  min-height: 100%;
+  display: table-cell; }
