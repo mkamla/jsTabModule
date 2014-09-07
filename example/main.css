@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html, body {
+	margin:0;
+	padding:0;
+}
+
+html {
+	font-size:100%;
+}
+
+body {
+	background-color:#dc5147;
+	font-family:"Lato";
+}
+
+body > h1 {
+	margin:40px 0;
+	color:#FFF;
+	text-align:center;
+	font-size:2.5rem;
+	text-transform:uppercase;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight:normal;
+}
+
+body > div {
+	width:70%;
+	margin:30px 15%;
+}
+
+.tab .tab-content {
+	background-color:#FFF;
+}
+
+.tab .tab-content > li h4 {
+	width:120px;
+	margin:150px auto;
+	padding:70px 20px 20px 20px;
+	border:solid 5px #dc5147;
+	border-radius:120px;
+	color:#dc5147;
+	text-align:center;
+	position:relative;
+	overflow:hidden; 
+}
+
+.tab .tab-content > li h4:before {
+	width:50%;
+	margin:0 auto;
+	color:#dc5147;
+	font-size:3rem;
+	text-align:center;
+	display:block;
+	position:absolute;
+	top:10px;
+	left:25%;
+}
+
+.tab .tab-content > li:nth-child(1) h4:before {
+	content:"1";
+}
+
+.tab .tab-content > li:nth-child(2) h4:before {
+	content:"2";
+}
+
+.tab .tab-content > li:nth-child(3) h4:before {
+	content:"3";
+}
+
+.tab .tab-content > li:nth-child(4) h4:before {
+	content:"4";
+}
+
+
+.tab-horiz .tab-legend > li:first-child.active {
+	padding-left:16px;
+	border-left:0;
+}
+
+.tab-horiz .tab-legend > li:last-child.active {
+	padding-right:16px;
+	border-right:0;
+}
