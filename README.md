@@ -10,7 +10,7 @@
 
 	<script type="text/javascript">
 		$(document).ready(function(){
-			formModule.init();
+			tabModule.init();
 		});
 	</script>
 
